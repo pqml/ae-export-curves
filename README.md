@@ -1,5 +1,5 @@
 <h1 align="center">ae-export-curves</h1>
-<h3 align="center">Read After Effects curves exported by ae-export-curves</h3>
+<h3 align="center">Export After Effects curves as JSON</h3>
 
 <br><br><br>
 
