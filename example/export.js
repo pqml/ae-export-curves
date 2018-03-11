@@ -1,17 +1,20 @@
 // open project.aep with After Effects
 
 const curves = require('../lib/export-curves')
-const tc = require('await-handler')
+const fs = require('fs')
+const path = require('path')
 
-;(async () => {
-  const [err, json] = await tc(curves({
-    composition: 'Composition',
+const FILEPATH = path.join(__dirname, 'data.json')
+
+curves({
+    composition: 'Comp 1',
     precision: 5,
     properties: {
-      slider: ['Controller', 'Effects', 'Influence', 'Slider']
+      translateX: ['Shape Layer 1', 'Transform', 'X Position'],
+      scaleX: ['Shape Layer 1', 'Transform', 'Scale', 0],
+      rotation: ['Shape Layer 1', 'Transform', 'Rotation']
     }
-  }))
-
-  if (err) console.log(err)
-  else console.log(json)
-})()
+})
+  .then(json => { console.log(json); return json })
+  .then(json => fs.writeFileSync(FILEPATH, JSON.stringify(json, null, 2)))
+  .catch(err => console.log(err))

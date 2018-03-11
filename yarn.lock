@@ -44,10 +44,6 @@ ansi-styles@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
 
-await-handler@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/await-handler/-/await-handler-1.1.0.tgz#b8bd5e0c23c910ed6b1006c832cb635331e8ce5c"
-
 babel-code-frame@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"

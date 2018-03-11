@@ -1,9 +1,35 @@
 {
+  "name": "ae-export-curves",
+  "description": "Read After Effects curves exported by ae-export-curves",
+  "version": "0.0.2",
+  "main": "lib/export-curves.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pqml/ae-export-curves.git"
+  },
+  "keywords": [
+    "ae",
+    "after",
+    "effects",
+    "curves",
+    "bezier",
+    "easing"
+  ],
+  "author": "pqml",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pqml/ae-export-curves/issues"
+  },
+  "homepage": "https://github.com/pqml/ae-export-curves#readme",
   "dependencies": {
     "ae-to-json": "^1.1.2",
     "after-effects": "^0.4.15"
   },
-  "devDependencies": {
-    "await-handler": "^1.1.0"
-  }
+  "devDependencies": {}
 }
