@@ -6,7 +6,7 @@
 ## Features
 - Create small json objects containing curves infos from After Effect properties
 - Supports bezier / hold / linear keyframe types
-- Easily read these curves client-side with [https://github.com/pqml/ae-read-curves](ae-read-curves)
+- Easily read these curves client-side with [ae-read-curves](https://github.com/pqml/ae-read-curves)
 - :warning: **Only works for numerical, one-dimensional properties**
 
 <br><br>
