@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "ae-to-json": "^1.1.2",
+    "after-effects": "^0.4.15"
+  },
+  "devDependencies": {
+    "await-handler": "^1.1.0"
+  }
+}
